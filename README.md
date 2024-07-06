@@ -38,6 +38,7 @@ Interests
 
 ⚡ Fun fact: have been a member of a legendary Estonian band "Vennaskond" besides two ska/punk bands
 
+***
 
 **1st teamwork task!**
 Discuss meaning of push, pull, commit and add code in GitHub.
