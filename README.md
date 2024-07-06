@@ -37,6 +37,7 @@ Interests
 - 🧠 Neuroscience
   
 💰 In the past 10 years I have worked as a designer and/or teacher (vocational education) 
+
 ⚡ Fun fact: have been a member of a legendary Estonian band "Vennaskond" besides two ska/punk bands
 
 ***
