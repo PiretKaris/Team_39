@@ -27,7 +27,16 @@ Interests
 - 💞️ I’m looking to collaborate on ...
 - ⚡ Fun fact: ...
 
+**Evelyn**
+👀 I’m interested in ...
 
+- Haute Couture embroidery
+- Music
+- Art
+- Books
+- Neuroscience
+
+⚡ Fun fact: have been a member of a legendary Estonian band "Vennaskond" besides two ska/punk bands
 
 
 **1st teamwork task!**
