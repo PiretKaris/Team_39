@@ -27,10 +27,9 @@ Let's introduce ourselves!
 - 📚 Books
 - 🌱 Gardening (a little bit) :D
 
-
-- 💰 I’m currently learning Python and Java!
+💰 I’m currently learning Python and Java!
   
-- ⚡ Fun fact: ...
+⚡ Fun fact: ...
 
 **Evelyn**
 
