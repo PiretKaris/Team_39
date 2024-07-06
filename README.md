@@ -27,7 +27,7 @@ Interests
 - 💞️ I’m looking to collaborate on ...
 - ⚡ Fun fact: ...
 ***
-**Evelyn**
+***Evelyn***
 👀 I’m interested in ...
 
 - ✨ Haute Couture embroidery
@@ -35,6 +35,8 @@ Interests
 - 🖌️ Art
 - 📚 Books
 - 🧠 Neuroscience
+- ✈️ Travelling
+- 📖 Learning new languages
   
 💰 In the past 10 years I have worked as a designer and/or teacher (vocational education) 
 
