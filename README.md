@@ -6,11 +6,17 @@ Let's introduce ourselves!
 
 Piret 
 Teamlead
+👀 I’m interested in ...
+- ✨ Self-development and growth
+- ✈️ Travelling
+- 📚 Books
+- 🌱 Gardening
+- 💞️ Enjoying life with kids
 
+💰 In the past 10 years I have worked in a shipping company in different positions as trainer, team-lead back-up etc.
 
+⚡ Fun fact: have taken part in World Aesthetic Group Gymnastics Championships in Spain, 2008.
 
--
--
 ***
 **Agnese **
 Hello! 
