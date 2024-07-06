@@ -4,7 +4,7 @@ Our team tasks as of 06_07_2024 in WoTech program, done by 4 fantastic women -Ag
 
 Let's introduce ourselves!
 
-**Piret** - teamlead
+**Piret** - team-lead
 
 👀 I’m interested in ...
 - ✨ Self-development and growth
@@ -62,10 +62,14 @@ Add: The git add command adds changes in the working directory to the staging ar
 `git add <file>`
 `git add .`
 
-
-
 Commit: The git commit command captures a snapshot of the project's currently staged changes. Commits are the core building blocks of a Git project history; they record the changes and allow you to revert to previous states.
+
+`git commit -m`
 
 Push: The git push command is used to upload local repository content to a remote repository. Pushing sends the changes made on your local repository to the remote repository, making them available to others.
 
+`git push origin main`
+
 Pull: The git pull command fetches and merges changes from a remote repository to your local repository. It combines the actions of git fetch (which downloads the changes) and git merge (which applies the changes).
+
+`git pull origin main`
