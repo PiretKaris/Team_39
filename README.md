@@ -59,8 +59,8 @@ Discuss meaning of push, pull, commit and add code in GitHub.
 
 Add: The git add command adds changes in the working directory to the staging area. This prepares the changes to be committed. It does not actually save the changes to the repository but stages them for the next commit.
 
-``git add <file>
-git add .``
+`git add <file>`
+`git add .`
 
 
 
