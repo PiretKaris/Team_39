@@ -8,7 +8,10 @@ Piret
 Teamlead
 
 
-Agnese 
+
+
+**Agnese **
+Hello! 
 ## Interests
 👀 I’m interested in ...
 - 🎾 Tennis, Padle tennis
@@ -21,6 +24,8 @@ Agnese
 - 🌱 I’m currently learning Python and Java! 
 - 💞️ I’m looking to collaborate on ...
 - ⚡ Fun fact: ...
+
+
 
 
 **1st teamwork task!**
