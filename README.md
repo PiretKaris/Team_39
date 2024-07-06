@@ -22,14 +22,16 @@ Let's introduce ourselves!
 👀 I’m interested in ...
 
 - 🎾 Tennis, Padle tennis
+- ✈️ Travelling
 - 🎾 Squash
 - 🎮 Video Games (duo games mostly)
 - 📚 Books
-- 🌱 Gardening (a little bit) :D
+- 🖌️ Art
+- 🖌️ Knitting&Sewing (less than I would like)
 
-💰 I’m currently learning Python and Java!
+💰 In the past 3 years I have been working as a occupational therapist in rehabilitation.
   
-⚡ Fun fact: ...
+⚡ Fun fact: I have completed a sewing course a couple of years ago. Then I was busy studying at the university and didn't spare time for sewing, and now I'm more passionate about knitting - I'm currently knitting a sweater for my boyfriend (it's my second biggest knitting project so far) :)
 
 **Evelyn**
 
