@@ -24,7 +24,7 @@ Let's introduce ourselves!
 - 🎾 Tennis, Padle tennis
 - ✈️ Travelling
 - 🎾 Squash
-- 🎮 Video Games (duo games mostly)
+- 🎮 Video Games (duo games mostly) & Board games
 - 📚 Books
 - 🖌️ Art
 - 🖌️ Knitting&Sewing (less than I would like)
