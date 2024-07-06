@@ -51,15 +51,22 @@ Let's introduce ourselves!
 
 👀 I’m interested in ...
 
-- 
--
--
--
+- 🎭 Theater
+- ♟️ Board games
+- 📚 Books
+- 📖 Learning
+- ✈️ Travelling
+- 🚶🚴‍♀️🏊‍♀️ Outdoor activities (hiking, biking, swimming) 
+
+💰 In the past six years, I have worked as a marine travel agent, but currently, I am on maternity leave.
+
+⚡ Fun fact: Once I took my recently bought 'broken' phone in for service, only to find out that it just needed to be charged — imagine my facepalm moment! 🤦‍♀️😆
 
 
-💰
+**Wrapping it up - We are a dynamic team of four passionate women, united by the WoTech program. We love collaborating, learning from each other, and combining our unique strengths to create amazing projects.**We are a dynamic team of four passionate women, united by the WoTech program. We love collaborating, learning from each other, and combining our unique strengths to create amazing projects 😎
 
-⚡ Fun fact: 
+
+
 
 **1st teamwork task!**
 Discuss meaning of push, pull, commit and add code in GitHub.
