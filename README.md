@@ -23,7 +23,7 @@ Agnese
 - ⚡ Fun fact: ...
 
 
-**1th teamwork task!**
+**1st teamwork task!**
 Discuss meaning of push, pull, commit and add code in GitHub.
 
 
