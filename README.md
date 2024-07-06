@@ -1,11 +1,11 @@
 # Team_39
+
 Our team tasks as of 06_07_2024 in WoTech program, done by 4 fantastic women -Agnese, Evelyn, Piret, Sigita! 
 
 Let's introduce ourselves!
 
+**Piret** - teamlead
 
-Piret 
-Teamlead
 👀 I’m interested in ...
 - ✨ Self-development and growth
 - ✈️ Travelling
@@ -17,11 +17,10 @@ Teamlead
 
 ⚡ Fun fact: have taken part in World Aesthetic Group Gymnastics Championships in Spain, 2008.
 
-***
-**Agnese **
-Hello! 
-Interests
+**Agnese**
+
 👀 I’m interested in ...
+
 - 🎾 Tennis, Padle tennis
 - 🎾 Squash
 - 🎮 Video Games (duo games mostly)
@@ -32,8 +31,8 @@ Interests
 - 🌱 I’m currently learning Python and Java! 
 - 💞️ I’m looking to collaborate on ...
 - ⚡ Fun fact: ...
-***
-***Evelyn***
+
+**Evelyn**
 
 👀 I’m interested in ...
 
@@ -49,13 +48,20 @@ Interests
 
 ⚡ Fun fact: have been a member of a legendary Estonian band "Vennaskond" besides two ska/punk bands
 
-***
+**Sigita**
+
+👀 I’m interested in ...
+
+⚡ Fun fact: 
 
 **1st teamwork task!**
 Discuss meaning of push, pull, commit and add code in GitHub.
 
-
 Add: The git add command adds changes in the working directory to the staging area. This prepares the changes to be committed. It does not actually save the changes to the repository but stages them for the next commit.
+
+```py
+git add <file>
+git add .```
 
 Commit: The git commit command captures a snapshot of the project's currently staged changes. Commits are the core building blocks of a Git project history; they record the changes and allow you to revert to previous states.
 
