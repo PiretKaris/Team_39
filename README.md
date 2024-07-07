@@ -21,13 +21,13 @@ Let's introduce ourselves!
 
 👀 I’m interested in ...
 
-- 🎾 Tennis, Padle tennis
+- 🎾 Tennis, paddle tennis
 - ✈️ Travelling
 - 🎾 Squash
-- 🎮 Video Games (duo games mostly) & Board games
+- 🎮 Video games (duo games mostly) & board games
 - 📚 Books
 - 🖌️ Art
-- 🖌️ Knitting&Sewing (less than I would like)
+- 🖌️ Knitting & sewing (less than I would like)
 
 💰 In the past 3 years I have been working as a occupational therapist in rehabilitation.
   
@@ -45,9 +45,9 @@ Let's introduce ourselves!
 - ✈️ Travelling
 - 📖 Learning new languages
   
-💰 In the past 10 years I have worked as a designer and/or teacher (vocational education) 
+💰 In the past 10 years I have worked as a designer and/or teacher (vocational education).
 
-⚡ Fun fact: have been a member of a legendary Estonian band "Vennaskond" besides two ska/punk bands
+⚡ Fun fact: have been a member of a legendary Estonian band "Vennaskond" besides two ska/punk bands.
 
 **Sigita**
 
@@ -65,7 +65,7 @@ Let's introduce ourselves!
 ⚡ Fun fact: Once I took my recently bought 'broken' phone in for service, only to find out that it just needed to be charged — imagine my facepalm moment! 🤦‍♀️😆
 
 
-**Wrapping it up - We are a dynamic team of four passionate women, united by the WoTech program. We love collaborating, learning from each other, and combining our unique strengths to create amazing projects.** 😎
+**Wrapping it up! We are a dynamic team of four passionate women, united by the WoTech program. We love collaborating, learning from each other, and combining our unique strengths to create amazing projects.** 😎
 
 
 **1st teamwork task!**
