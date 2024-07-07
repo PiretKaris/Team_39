@@ -65,7 +65,7 @@ Let's introduce ourselves!
 ⚡ Fun fact: Once I took my recently bought 'broken' phone in for service, only to find out that it just needed to be charged — imagine my facepalm moment! 🤦‍♀️😆
 
 
-**Wrapping it up - We are a dynamic team of four passionate women, united by the WoTech program. We love collaborating, learning from each other, and combining our unique strengths to create amazing projects.**We are a dynamic team of four passionate women, united by the WoTech program. We love collaborating, learning from each other, and combining our unique strengths to create amazing projects 😎
+**Wrapping it up - We are a dynamic team of four passionate women, united by the WoTech program. We love collaborating, learning from each other, and combining our unique strengths to create amazing projects.** 😎
 
 
 
