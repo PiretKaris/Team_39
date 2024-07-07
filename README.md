@@ -68,8 +68,6 @@ Let's introduce ourselves!
 **Wrapping it up - We are a dynamic team of four passionate women, united by the WoTech program. We love collaborating, learning from each other, and combining our unique strengths to create amazing projects.** 😎
 
 
-
-
 **1st teamwork task!**
 Discuss meaning of push, pull, commit and add code in GitHub.
 
