@@ -24,3 +24,61 @@ java
 
     }
 ```
+
+
+Classes: 
+
+
+```
+java
+package com.datorium.Datorium.API;
+
+
+public class ResultItem {
+    private String resultName;
+
+    public ResultItem() {}
+
+    public ResultItem(String resultName) {
+        this.resultName = resultName;
+    }
+
+    public String getResultName() {
+        return resultName;
+    }
+
+    public void setResultName(String resultName) {
+       this.resultName = resultName;
+    }
+}
+
+```
+
+
+```
+package com.datorium.Datorium.API;
+
+
+
+public class Item {
+    private String name;
+
+    public Item() {}
+
+    public Item(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+```
+
+
+
+
