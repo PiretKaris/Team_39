@@ -9,10 +9,18 @@ For example:
 //Send name -> Oskars
 //Return OskarssraksO
 
-
-
-```java
 DatoriumApiApplications.java
+```java
+package com.datorium.Datorium.API;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.*;
+
+@SpringBootApplication
+@RestController
+@CrossOrigin
+
 public class DatoriumApiApplication {
     
     @PostMapping("/sendItem")
@@ -38,5 +46,3 @@ package com.datorium.Datorium.API;
 public class ResultItem {
     public String resultName;
 }```
-
-
