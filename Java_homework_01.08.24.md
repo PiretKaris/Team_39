@@ -29,18 +29,18 @@ public class DatoriumApiApplication {
         resultItem.resultName = item.name + "TEAM39";
         return resultItem;
     }
-}```
+}
 
 Item.java
-```java
+
 package com.datorium.Datorium.API;
 
 public class Item {
     public String name;
-}```
+}
 
 ResultItem.java
-```java
+
 package com.datorium.Datorium.API;
 
 public class ResultItem {
