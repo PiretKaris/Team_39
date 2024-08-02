@@ -49,5 +49,3 @@ public class ResultItem {
     public String resultName;
 }
 
-![Capture](https://github.com/user-attachments/assets/918619c9-0bf3-4084-89f2-01fce37a5109)
-
