@@ -48,6 +48,8 @@ package com.datorium.Datorium.API;
 public class ResultItem {
     public String resultName;
 }
-![Capture](https://github.com/user-attachments/assets/f9d2608d-40a1-466f-8206-5e84531789ac)
+
+![Capture](https://github.com/user-attachments/assets/ea4bc144-5478-4dcc-b3d9-d21498ae51f1)
+
 
 
