@@ -1,6 +1,4 @@
-Task for us: 
 1.Send a POST request
-
 public ResultItem sendItem(Item item)
 
 2.You should send one object and receive a different object with different data
@@ -12,73 +10,33 @@ For example:
 //Return OskarssraksO
 
 
-*RESULT*
-
-```
-java 
-@PostMapping("/item")
-    public ResultItem sendItem(@RequestBody Item item){ // username + password
-        String originalName = item.getName();
-        String resultName = originalName + new StringBuilder(originalName).reverse().toString();
-        return new ResultItem(resultName);
-
+DatoriumApiApplications.java
+```java
+public class DatoriumApiApplication {
+    
+    @PostMapping("/sendItem")
+    public ResultItem sendItem(@RequestBody Item item) {
+        var resultItem = new ResultItem();
+        resultItem.resultName = item.name + "TEAM39";
+        return resultItem;
     }
-```
+}```
 
-
-Classes: 
-
-
-```
-java
+Item.java
+```java
 package com.datorium.Datorium.API;
-
-
-public class ResultItem {
-    private String resultName;
-
-    public ResultItem() {}
-
-    public ResultItem(String resultName) {
-        this.resultName = resultName;
-    }
-
-    public String getResultName() {
-        return resultName;
-    }
-
-    public void setResultName(String resultName) {
-       this.resultName = resultName;
-    }
-}
-
-```
-
-
-```
-package com.datorium.Datorium.API;
-
-
 
 public class Item {
-    private String name;
+    public String name;
+}```
 
-    public Item() {}
+ResultItem.java
+```java
+package com.datorium.Datorium.API;
 
-    public Item(String name) {
-        this.name = name;
-    }
+public class ResultItem {
+    public String resultName;
+}```
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-}
-```
-
-
-
+![image](https://github.com/user-attachments/assets/c18784ef-f453-4c51-954f-028467ad88eb)
 
