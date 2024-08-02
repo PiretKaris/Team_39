@@ -10,8 +10,9 @@ For example:
 //Return OskarssraksO
 
 
-DatoriumApiApplications.java
+
 ```java
+DatoriumApiApplications.java
 public class DatoriumApiApplication {
     
     @PostMapping("/sendItem")
@@ -38,5 +39,4 @@ public class ResultItem {
     public String resultName;
 }```
 
-![image](https://github.com/user-attachments/assets/c18784ef-f453-4c51-954f-028467ad88eb)
 
