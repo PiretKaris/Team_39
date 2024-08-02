@@ -46,4 +46,4 @@ package com.datorium.Datorium.API;
 
 public class ResultItem {
     public String resultName;
-}```
+}
