@@ -10,7 +10,8 @@ For example:
 //Return OskarssraksO
 
 ```java
-*DatoriumApiApplications.java*
+*DatoriumApiApplications.java*![Capture](https://github.com/user-attachments/assets/003309a9-eeb8-4114-bd8e-f3e4b026458a)
+
 
 package com.datorium.Datorium.API;
 
@@ -47,3 +48,6 @@ package com.datorium.Datorium.API;
 public class ResultItem {
     public String resultName;
 }
+![Capture](https://github.com/user-attachments/assets/f9d2608d-40a1-466f-8206-5e84531789ac)
+
+
