@@ -10,7 +10,8 @@ For example:
 //Return OskarssraksO
 
 ```java
-DatoriumApiApplications.java
+*DatoriumApiApplications.java*
+
 package com.datorium.Datorium.API;
 
 import org.springframework.boot.SpringApplication;
@@ -31,7 +32,7 @@ public class DatoriumApiApplication {
     }
 }
 
-Item.java
+*Item.java*
 
 package com.datorium.Datorium.API;
 
@@ -39,7 +40,7 @@ public class Item {
     public String name;
 }
 
-ResultItem.java
+*ResultItem.java*
 
 package com.datorium.Datorium.API;
 
