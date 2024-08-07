@@ -1,10 +1,39 @@
 Discuss and find information about clean architecture.
 
-**What's the importance of each layer?**
+1. **What's the importance of each layer?**
 
-**Why is there needed some kind of structure and architecture?**
+2. **Why is there needed some kind of structure and architecture?**
 
-**Find other architecture types, figure out pros and cons.**
+3. **Find other architecture types, figure out pros and cons.**
+
+
+
+
+2. **Why is there needed some kind of structure and architecture?**
+
+Testability
+A well-structured architecture makes the system easier to test. By decoupling components and enforcing boundaries, 
+it becomes simpler to write unit tests for individual parts of the system without needing to rely on external dependencies. 
+This isolation allows for more thorough and reliable testing.
+
+Flexibility and Maintainability
+A clear structure helps in adapting to changes. When the architecture is well-defined, it's easier to locate and modify 
+the parts of the system that need to change. This is crucial in a constantly evolving software environment where requirements and 
+technologies change frequently.
+
+Reusability
+Structured architecture promotes the reuse of components. By designing components to be independent and loosely coupled, 
+they can be reused in different parts of the system or even in different projects. This reduces redundancy and accelerates development.
+
+Scalability
+As a system grows, a solid architecture allows it to scale more easily. With a clear structure, adding new features or handling 
+increased loads can be done more efficiently without causing a ripple effect of issues throughout the system.
+
+Communication and Understanding
+A well-defined architecture acts as a common language among team members, making it easier for them to understand the system's design 
+and purpose. It helps new developers get up to speed quickly and ensures that everyone is on the same page regarding the system's 
+structure and how different components interact.
+
 
 ✨ Layered (N-tier) Architecture ✨
 
