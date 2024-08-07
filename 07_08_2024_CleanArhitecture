@@ -6,61 +6,66 @@ Discuss and find information about clean architecture.
 
 **3. Find other architecture types, figure out pros and cons.**
 
-Layered (N-tier) Architecture
-Pros:
+✨ Layered (N-tier) Architecture
 
+Pros
 Separation of Concerns: Each layer has a distinct responsibility, which makes the system easier to manage and understand.
 Ease of Development and Maintenance: Layers can be developed and updated independently.
-Cons:
 
+Cons
 Performance: Multiple layers can introduce latency and reduce performance.
 Rigidity: Changes in one layer might require changes in other layers, making the system less flexible.
-2. Microservices Architecture
-Pros:
 
+✨ Microservices Architecture
+
+Pros
 Scalability: Services can be scaled independently.
 Flexibility in Technology: Each service can use different technology stacks.
 Fault Isolation: Failures in one service do not affect others.
-Cons:
 
+Cons
 Complexity: Managing multiple services can be complex.
 Deployment Challenges: Requires sophisticated deployment and monitoring mechanisms.
 Data Management: Handling distributed data and maintaining consistency can be challenging.
-3. Event-Driven Architecture
-Pros:
 
+✨ Event-Driven Architecture
+
+Pros
 Asynchronous Communication: Decouples producers and consumers, improving scalability and flexibility.
 Real-time Processing: Ideal for real-time analytics and monitoring.
-Cons:
 
+Cons
 Complexity: Designing and managing event-driven systems can be complex.
 Debugging: Tracing events across the system can be difficult.
-4. Serverless Architecture
-Pros:
 
+✨ Serverless Architecture
+
+Pros
 Cost-Efficiency: Pay only for the actual compute time used.
 Scalability: Automatically scales with the load.
 Reduced Maintenance: No server management required.
-Cons:
 
+Cons
 Cold Start Latency: Initial requests can have higher latency.
 Limited Execution Time: Functions have execution time limits, which might not be suitable for long-running tasks.
 Vendor Lock-In: Tightly coupled with cloud provider's services.
-5. Hexagonal Architecture (Ports and Adapters)
-Pros:
 
+✨ Hexagonal Architecture (Ports and Adapters)
+
+Pros
 Decoupling: Encourages separation between the core logic and external systems.
 Flexibility: Adapters can be easily swapped without affecting the core logic.
-Cons:
 
+Cons
 Complexity: Can introduce complexity due to the need for multiple adapters.
 Learning Curve: Might be harder to understand and implement for those unfamiliar with the concept.
-6. CQRS (Command Query Responsibility Segregation)
-Pros:
 
+✨  CQRS (Command Query Responsibility Segregation)
+
+Pros
 Performance: Optimizes read and write operations separately.
 Scalability: Read and write workloads can be scaled independently.
-Cons:
 
+Cons
 Complexity: Adds complexity to the system design.
 Consistency: Ensuring data consistency between the command and query models can be challenging.
