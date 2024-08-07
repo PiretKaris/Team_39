@@ -1,12 +1,12 @@
 Discuss and find information about clean architecture.
 
-*1. What's the importance of each layer?*
+**1. What's the importance of each layer?**
 
 **2. Why is there needed some kind of structure and architecture?**
 
 **3. Find other architecture types, figure out pros and cons.**
 
-1. Layered (N-tier) Architecture
+Layered (N-tier) Architecture
 Pros:
 
 Separation of Concerns: Each layer has a distinct responsibility, which makes the system easier to manage and understand.
