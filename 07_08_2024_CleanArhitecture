@@ -14,7 +14,47 @@ Clean Architecture, a concept introduced by Robert C. Martin (also known as Uncl
 intended to create systems that are maintainable, testable, and scalable. 
 It emphasizes separating the concerns of the application into distinct layers, each with specific responsibilities.
 
+✨ Key Components of Clean Architecture:
+- Domain Layer: Contains the business logic and entities. It’s the innermost layer with no dependencies on other layers.
+- Application Layer: Contains application logic and defines interfaces for the outer layers. It depends on the Domain layer
+but not directly on Presentation or Infrastructure layers.
+- Infrastructure Layer: Implements interfaces from the Application layer, dealing with data access, file systems, network, etc.
+- Presentation Layer (UI): The outermost layer, interacting with the Application layer and displaying information to the user.
 
+
+✨ Application Layer (Application-Specific Business Logic)
+- The Application Layer contains application-specific logic. It orchestrates how the domain objects are used to perform specific tasks
+pertinent to the application. It does not contain business rules (those belong in the Domain Layer), but it does contain application logic, 
+which can be thought of as a higher-level policy, orchestrating how the domain objects work together to perform tasks needed by the application.
+- Use Cases/Commands/Queries: These represent and encapsulate all of the use cases of the system.
+- DTOs (Data Transfer Objects): Objects that carry data between processes, in order to reduce the number of method calls, for example.
+- Interfaces/Services: Abstractions for outer layers (like Infrastructure or Presentation) to implement.
+
+✨ Domain Layer (Core Business Logic)
+!!! The Domain Layer is the heart of the business logic. It encapsulates the fundamental business rules and how the business
+entities interact with each other. It’s the most stable part of the application, least likely to change when something external changes.
+In the ProductPolicy class, you would typically implement business rules that are core to the product domain. For example:
+Checking if a customer is eligible to submit a review (based on purchase history or other business rules).
+Validating if the product meets certain conditions before it can be listed or reviewed.
+
+
+✨ Infrastructure Layer
+The Application Layer defines interfaces (like IProductRepository or IReviewRepository) that abstract the operations 
+needed by the application. The Infrastructure Layer provides concrete implementations of these interfaces.
+This layer is responsible for the technical concerns of the application, such as:
+Data persistence (e.g., databases).
+File system interactions.
+Network communication (e.g., external API calls).
+Any other infrastructure concerns (e.g., caching, logging).
+
+✨Benefits of Clean Architecture Approach
+Decoupling from Core Logic: By isolating infrastructure concerns from the core business logic, the Domain and 
+Application layers can focus on business rules and application-specific logic without being affected by infrastructure details.
+Interchangeability: You can change the implementations in the Infrastructure Layer 
+(like switching databases or integrating a different third-party service) with minimal impact on the rest of the application, 
+as long as the interfaces remain consistent.
+Testability: It’s easier to test the Application and Domain layers by mocking the interfaces that are implemented
+in the Infrastructure Layer. This allows you to write unit tests that are not dependent on actual databases or external services.
 
 
 2. **Why is there needed some kind of structure and architecture?**
