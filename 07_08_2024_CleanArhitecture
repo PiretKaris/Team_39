@@ -8,7 +8,7 @@ Discuss and find information about clean architecture.
 
 ✨ Layered (N-tier) Architecture
 
-Pros
+⚡ Pros
 Separation of Concerns: Each layer has a distinct responsibility, which makes the system easier to manage and understand.
 Ease of Development and Maintenance: Layers can be developed and updated independently.
 
@@ -18,7 +18,7 @@ Rigidity: Changes in one layer might require changes in other layers, making the
 
 ✨ Microservices Architecture
 
-Pros
+⚡ Pros
 Scalability: Services can be scaled independently.
 Flexibility in Technology: Each service can use different technology stacks.
 Fault Isolation: Failures in one service do not affect others.
@@ -30,7 +30,7 @@ Data Management: Handling distributed data and maintaining consistency can be ch
 
 ✨ Event-Driven Architecture
 
-Pros
+⚡ Pros
 Asynchronous Communication: Decouples producers and consumers, improving scalability and flexibility.
 Real-time Processing: Ideal for real-time analytics and monitoring.
 
@@ -40,7 +40,7 @@ Debugging: Tracing events across the system can be difficult.
 
 ✨ Serverless Architecture
 
-Pros
+⚡ Pros
 Cost-Efficiency: Pay only for the actual compute time used.
 Scalability: Automatically scales with the load.
 Reduced Maintenance: No server management required.
@@ -52,7 +52,7 @@ Vendor Lock-In: Tightly coupled with cloud provider's services.
 
 ✨ Hexagonal Architecture (Ports and Adapters)
 
-Pros
+⚡ Pros
 Decoupling: Encourages separation between the core logic and external systems.
 Flexibility: Adapters can be easily swapped without affecting the core logic.
 
@@ -62,7 +62,7 @@ Learning Curve: Might be harder to understand and implement for those unfamiliar
 
 ✨  CQRS (Command Query Responsibility Segregation)
 
-Pros
+⚡ Pros
 Performance: Optimizes read and write operations separately.
 Scalability: Read and write workloads can be scaled independently.
 
