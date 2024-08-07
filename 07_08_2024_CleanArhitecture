@@ -10,6 +10,13 @@ Discuss and find information about clean architecture.
 1. **What's the importance of each layer?**
 
 
+Clean Architecture, a concept introduced by Robert C. Martin (also known as Uncle Bob), is a design philosophy and set of principles 
+intended to create systems that are maintainable, testable, and scalable. 
+It emphasizes separating the concerns of the application into distinct layers, each with specific responsibilities.
+
+
+
+
 2. **Why is there needed some kind of structure and architecture?**
 
 ✨ Testability
