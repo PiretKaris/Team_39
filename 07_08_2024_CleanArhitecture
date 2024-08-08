@@ -1,5 +1,15 @@
 Discuss and find information about clean architecture.
 
+Summary of common software architecture types:
+
+Layered (N-Tier) Architecture - remains the most common and widely 
+  adopted architecture due to its simplicity, familiarity, and effectiveness in managing complex software systems.
+Microservices Architecture 
+Monolithic Architecture
+Client-Server Architecture
+Event-Driven Architecture
+
+
 1. **What's the importance of each layer?**
 
 Clean Architecture, a concept introduced by Robert C. Martin (also known as Uncle Bob), is a design philosophy and set of principles 
