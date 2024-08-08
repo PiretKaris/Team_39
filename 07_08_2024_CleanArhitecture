@@ -2,14 +2,6 @@ Discuss and find information about clean architecture.
 
 1. **What's the importance of each layer?**
 
-2. **Why is there needed some kind of structure and architecture?**
-
-3. **Find other architecture types, figure out pros and cons.**
-
-
-1. **What's the importance of each layer?**
-
-
 Clean Architecture, a concept introduced by Robert C. Martin (also known as Uncle Bob), is a design philosophy and set of principles 
 intended to create systems that are maintainable, testable, and scalable. 
 It emphasizes separating the concerns of the application into distinct layers, each with specific responsibilities.
@@ -20,7 +12,6 @@ It emphasizes separating the concerns of the application into distinct layers, e
 but not directly on Presentation or Infrastructure layers.
 - Infrastructure Layer: Implements interfaces from the Application layer, dealing with data access, file systems, network, etc.
 - Presentation Layer (UI): The outermost layer, interacting with the Application layer and displaying information to the user.
-
 
 ✨ Application Layer (Application-Specific Business Logic)
 - The Application Layer contains application-specific logic. It orchestrates how the domain objects are used to perform specific tasks
@@ -37,7 +28,6 @@ In the ProductPolicy class, you would typically implement business rules that ar
 Checking if a customer is eligible to submit a review (based on purchase history or other business rules).
 Validating if the product meets certain conditions before it can be listed or reviewed.
 
-
 ✨ Infrastructure Layer
 The Application Layer defines interfaces (like IProductRepository or IReviewRepository) that abstract the operations 
 needed by the application. The Infrastructure Layer provides concrete implementations of these interfaces.
@@ -47,7 +37,7 @@ File system interactions.
 Network communication (e.g., external API calls).
 Any other infrastructure concerns (e.g., caching, logging).
 
-✨Benefits of Clean Architecture Approach
+✨ Benefits of Clean Architecture Approach
 Decoupling from Core Logic: By isolating infrastructure concerns from the core business logic, the Domain and 
 Application layers can focus on business rules and application-specific logic without being affected by infrastructure details.
 Interchangeability: You can change the implementations in the Infrastructure Layer 
