@@ -84,7 +84,9 @@ structure and how different components interact.
 
 3.**Find other architecture types, figure out pros and cons.**
 
-✨ Layered (N-tier) Architecture ✨
+✨ Layered (N-tier) Architecture ✨ is a design pattern used in software development where the application is divided into distinct layers, 
+each with specific responsibilities. The "N" in N-tier represents the number of layers, which can vary depending on the complexity of the application. 
+This architecture is commonly used in enterprise applications to organize code, improve maintainability, and separate concerns.
 
 ⚡ Pros
 + Separation of Concerns: Each layer has a distinct responsibility, which makes the system easier to manage and understand.
@@ -94,7 +96,9 @@ structure and how different components interact.
 - Performance: Multiple layers can introduce latency and reduce performance.
 - Rigidity: Changes in one layer might require changes in other layers, making the system less flexible.
 
-✨ Microservices Architecture ✨
+✨ Microservices Architecture ✨  is a design pattern in software development where an application is structured as a collection of small, 
+loosely coupled, and independently deployable services. Each service in a microservices architecture is responsible for a specific piece of functionality
+and communicates with other services through well-defined APIs, typically over network protocols like HTTP/HTTPS or messaging queues.
 
 ⚡ Pros
 + Scalability: Services can be scaled independently.
@@ -106,7 +110,8 @@ structure and how different components interact.
 - Deployment Challenges: Requires sophisticated deployment and monitoring mechanisms.
 - Data Management: Handling distributed data and maintaining consistency can be challenging.
 
-✨ Event-Driven Architecture ✨
+✨ Event-Driven Architecture ✨ is a design pattern in software architecture where the flow of a system is determined by events, which are state changes
+or updates that trigger responses in other parts of the system. In this architecture, events are the primary means of communication between different components or services.
 
 ⚡ Pros
 + Asynchronous Communication: Decouples producers and consumers, improving scalability and flexibility.
@@ -116,7 +121,8 @@ structure and how different components interact.
 - Complexity: Designing and managing event-driven systems can be complex.
 - Debugging: Tracing events across the system can be difficult.
 
-✨ Serverless Architecture ✨
+✨ Serverless Architecture ✨ is a cloud computing model where developers build and run applications without managing the underlying infrastructure. 
+In this model, the cloud provider automatically provisions, scales, and manages the server infrastructure needed to run code, allowing developers to focus solely on writing and deploying application code.
 
 ⚡ Pros
 + Cost-Efficiency: Pay only for the actual compute time used.
@@ -128,7 +134,8 @@ structure and how different components interact.
 - Limited Execution Time: Functions have execution time limits, which might not be suitable for long-running tasks.
 - Vendor Lock-In: Tightly coupled with cloud provider's services.
 
-✨ Hexagonal Architecture (Ports and Adapters) ✨
+✨ Hexagonal Architecture (Ports and Adapters) ✨ is an architectural pattern used in software design. It aims at creating loosely coupled application components that
+can be easily connected to their software environment by means of ports and adapters.
 
 ⚡ Pros
 + Decoupling: Encourages separation between the core logic and external systems.
@@ -138,7 +145,8 @@ structure and how different components interact.
 - Complexity: Can introduce complexity due to the need for multiple adapters.
 - Learning Curve: Might be harder to understand and implement for those unfamiliar with the concept.
 
-✨  CQRS (Command Query Responsibility Segregation) ✨
+✨  CQRS (Command Query Responsibility Segregation) ✨ the segregation of the responsibilities of the commands and queries in a system. 
+That means that we're slicing our application logic vertically. In addition to that, we're segregating state mutation (command handling) from the data retrieval (query handling).
 
 ⚡ Pros
 + Performance: Optimizes read and write operations separately.
