@@ -17,15 +17,19 @@ Use in scikit-learn: In scikit-learn, error rates can be calculated using variou
 depending on the type of model and task (classification, regression, etc.). 
 For example, in a classification task, you might use:
 
-```python
 from sklearn.metrics import accuracy_score
 
 # Calculate error rate
 error_rate = 1 - accuracy_score(y_true, y_pred)
 
-```
 
 ❓2.Where you could use other machine-learning models?
+
+* Classification: Logistic Regression, Decision Trees, Random Forest, Support Vector Machines (SVM)
+* Regression: Linear Regression, Ridge Regression, Lasso Regression, Support Vector Regression (SVR)
+* Clustering: K-Means, Hierarchical Clustering, DBSCAN
+* Dimensionality Reduction: Principal Component Analysis (PCA), t-SNE
+* Ensemble Methods: Random Forest, Gradient Boosting Machines (GBM), AdaBoost
 
 
 ❓3.What is the difference between supervised and unsupervised training?
