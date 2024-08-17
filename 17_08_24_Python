@@ -7,15 +7,22 @@
 ❓3.What is the difference between supervised and unsupervised training?
 
 * Supervised Training:
-Labeled Data: In supervised learning, the training data includes both the input features (independent variables) and the corresponding output labels (dependent variables). These labels serve as the ground truth that the model tries to predict.
-The primary goal is to learn a mapping from inputs to outputs. The model is trained to predict the output labels given the input data by minimizing the difference between the predicted labels and the actual labels.
+Labeled Data: In supervised learning, the training data includes both the input features (independent variables) and 
+the corresponding output labels (dependent variables). 
+These labels serve as the ground truth that the model tries to predict.
+The primary goal is to learn a mapping from inputs to outputs. The model is trained to predict the output labels given the input data 
+by minimizing the difference between 
+the predicted labels and the actual labels.
 Examples in scikit-learn:
 Classification: Predicting a categorical label, such as identifying if an email is spam or not (e.g., RandomForestClassifier, SVC).
 Regression: Predicting a continuous value, such as forecasting house prices (e.g., LinearRegression, SVR).
 
 * Unsupervised Training:
-Unlabeled Data: In unsupervised learning, the training data consists only of input features without any corresponding output labels. The model tries to learn the underlying structure or distribution in the data.
-Goal: The main objective is to find patterns or groupings in the data, such as clustering similar data points or reducing the dimensionality of the data.
+Unlabeled Data: In unsupervised learning, the training data consists only of input features without any corresponding output labels. 
+The model tries to learn the underlying 
+structure or distribution in the data.
+Goal: The main objective is to find patterns or groupings in the data, such as clustering similar data points or reducing 
+the dimensionality of the data.
 Examples in scikit-learn:
 Clustering: Grouping similar data points into clusters (e.g., KMeans, DBSCAN).
 Dimensionality Reduction: Reducing the number of input variables while preserving as much information as possible (e.g., PCA, t-SNE).
@@ -27,7 +34,9 @@ Unsupervised Learning involves identifying patterns or structures in unlabeled d
 
 ❓4.How to import different models from the scikit-learn package?
 
-To import different models from the scikit-learn package, you can use the import statement in Python. Scikit-learn organizes its models into different modules based on the type of algorithm (e.g., classification, regression, clustering). Below are some examples of how to import various models from scikit-learn:
+To import different models from the scikit-learn package, you can use the import statement in Python. Scikit-learn organizes its models 
+into different modules based on the type 
+of algorithm (e.g., classification, regression, clustering). Below are some examples of how to import various models from scikit-learn:
 
 1. Classification Models
 Logistic Regression:
@@ -60,4 +69,5 @@ from sklearn.preprocessing import StandardScaler
 
 
 ❓7.What is model overfitting, and how can it be prevented?
-Overfitting occurs when a model performs well on training data but poorly on new data. It can be prevented by using techniques like cross-validation, regularization, or reducing model complexity.
+Overfitting occurs when a model performs well on training data but poorly on new data. It can be prevented by using techniques like 
+cross-validation, regularization, or reducing model complexity.
