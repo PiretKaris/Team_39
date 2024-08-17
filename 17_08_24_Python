@@ -3,7 +3,14 @@ TASK: teamwork is to look at scikit-learn library.
 
 ❓1. What is an error rate?
 
+he error rate in machine learning is a metric that quantifies how often a model makes incorrect predictions. 
+It's calculated as the ratio of incorrect predictions to the total number of predictions made.
+***Formula:***
+Error Rate = Number of Incorrect Predictions /  Total Number of Predictions
 
+​	
+ 
+Example: If your model makes 10 incorrect predictions out of 100 total predictions, the error rate is 10%.
 ❓2.Where you could use other machine-learning models?
 
 
