@@ -12,3 +12,7 @@ SELECT * FROM Pets WHERE Age > 3 AND NAME LIKE '%er';;
 
 SELECT * FROM Pets WHERE LENGTH(Name) BETWEEN 2 AND 3 AND Kind = 'Dog';
 
+
+4. Filtering all female birds who are less than 3 years old
+SELECT * FROM Pets
+WHERE Kind = 'Bird' AND Sex = 'female' AND Age <= 3;
