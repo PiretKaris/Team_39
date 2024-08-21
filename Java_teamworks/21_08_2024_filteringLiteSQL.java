@@ -1,20 +1,16 @@
 1. Filtering all pet names that are 10 characters long.
-```java
-SELECT name FROM Pets WHERE LENGTH(name) = 10;```
+
+```SELECT name FROM Pets WHERE LENGTH(name) = 10;```
 
 2. Filtering in "Pets" data dogs whose age is above 3 and whose name ends with "er"
-```java
-SELECT * FROM Pets WHERE Age > 3 AND NAME LIKE '%er';```
+```SELECT * FROM Pets WHERE Age > 3 AND NAME LIKE '%er';```
 
 3. Filtering in all Pets Dogs with short names
-```java
-SELECT * FROM Pets WHERE LENGTH(Name) BETWEEN 2 AND 3 AND Kind = 'Dog';```
+```SELECT * FROM Pets WHERE LENGTH(Name) BETWEEN 2 AND 3 AND Kind = 'Dog';```
 
 4. Filtering all female birds who are less than 3 years old
-```java
-SELECT * FROM Pets WHERE Kind = 'Bird' AND Sex = 'female' AND Age <= 3;```
+```SELECT * FROM Pets WHERE Kind = 'Bird' AND Sex = 'female' AND Age <= 3;```
 
 5. Filtering all Pets with name "Simba"
-```java
-SELECT * FROM Pets WHERE Name IN ('Simba');```
+```SELECT * FROM Pets WHERE Name IN ('Simba');```
 
