@@ -1,5 +1,4 @@
 1. Filtering all pet names that are 10 characters long.
-
 ```SELECT name FROM Pets WHERE LENGTH(name) = 10;```
 
 2. Filtering in "Pets" data dogs whose age is above 3 and whose name ends with "er"
