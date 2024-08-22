@@ -21,6 +21,25 @@ ORDER BY TotalSales DESC;
 
 3. Calculate total Sales by City and Pet Kind
 
+SELECT 
+    Owners.City, 
+    Sales.Country,
+    Sales.PetID, 
+    SUM(Procedures.Price) AS TotalSales
+FROM 
+    Sales
+JOIN 
+    Procedures ON Sales.ProcedureCode = Procedures.ProcedureCode 
+JOIN 
+    Pets ON Pets.PetID = Sales.PetID
+JOIN
+    Owners ON Owners.OwnerID = Pets.OwnerID  -- Assuming Pets table has OwnerID
+GROUP BY 
+    Owners.City, 
+    Sales.Country,
+    Sales.PetID;
+
+
 4. Calculate Average sales by City
 
 5. If you have additional time, explore relationships with SQLight```
