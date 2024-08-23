@@ -44,3 +44,4 @@ public class ResultItem {
     public String resultName;
 }
 
+https://github.com/PiretKaris/Team_39/issues/1#issue-2445348294
