@@ -42,4 +42,20 @@ GROUP BY
 
 4. Calculate Average sales by City
 
+SELECT 
+    Owners.City, 
+    AVG(Procedures.Price) AS AverageSales
+FROM 
+    Sales 
+LEFT JOIN 
+    Procedures ON Sales.ProcedureCode = Procedures.ProcedureCode
+LEFT JOIN 
+    Pets ON Sales.PetID = Pets.PetID
+LEFT JOIN 
+    Owners ON Owners.OwnerID = Pets.OwnerID
+GROUP BY 
+    Owners.City
+ORDER BY 
+    AverageSales DESC;
+
 5. If you have additional time, explore relationships with SQLight```
