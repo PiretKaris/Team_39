@@ -1,18 +1,13 @@
-1.Send a POST request
-public ResultItem sendItem(Item item)
+// 1.Send a POST request - public ResultItem sendItem(Item item)
 
-2.You should send one object and receive a different object with different data
+// 2.You should send one object and receive a different object with different data
 
-3.Test it out POSTMAN
+// 3.Test it out POSTMAN
 
-For example:
-//Send name -> Oskars
-//Return OskarssraksO
+// For example: Send name -> Oskars; Return Oskars
 
-```java
-*DatoriumApiApplications.java*![Capture](https://github.com/user-attachments/assets/003309a9-eeb8-4114-bd8e-f3e4b026458a)
-
-
+*DatoriumApiApplications.java*
+    
 package com.datorium.Datorium.API;
 
 import org.springframework.boot.SpringApplication;
