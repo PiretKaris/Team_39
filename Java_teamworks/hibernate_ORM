@@ -4,3 +4,18 @@ HIBERNATE / ORM
 Hibernate ORM enables developers to more easily write applications 
 whose data outlives the application process
 
+Hibernate is a powerful Object-Relational Mapping (ORM) tool for Java
+that simplifies database interactions by allowing developers to work with 
+Java objects, rather than manually writing SQL queries. 
+It abstracts the complexity of handling relational data in databases and 
+maps it to Java objects through annotations or XML configuration. 
+
+Here's an overview:
+
+Key Concepts in Hibernate:
+1. ORM (Object-Relational Mapping):
+    Hibernate maps Java classes (objects) to database tables.
+    Each entity class corresponds to a table, and its fields map to columns.
+2.Entity:
+    A Java class that represents a table in a database.
+    It's annotated with @Entity, and its fields represent the columns of the table.
